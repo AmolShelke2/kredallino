@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-scroll";
 import logo from "../../assets/kredallino-logo.webp";
 import { HeaderItem } from "./HeaderItem";
 import { AiOutlineMenu } from "react-icons/ai";
