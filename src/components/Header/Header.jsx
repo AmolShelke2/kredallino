@@ -29,8 +29,8 @@ export const Header = () => {
           show ? "flex flex-col items-start" : "hidden"
         }`}>
         <HeaderItem name={"Home"} link={"home"} />
-        <HeaderItem name={"Services"} link={"services"} />
         <HeaderItem name={"About"} link={"about"} />
+        <HeaderItem name={"Services"} link={"services"} />
         <HeaderItem name={"Blogs"} link={"blogs"} />
         <HeaderItem name={"Contact"} link={"contact"} />
       </nav>
