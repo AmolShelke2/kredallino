@@ -6,7 +6,7 @@ export const HeaderItem = ({ name, link }) => {
     <div>
       <Link
         activeClass="active"
-        className="text-[20px] tracking-widest font-normal text-[#a4a4a4] cursor-pointer hover:text-white"
+        className="text-[16px] tracking-wider font-normal text-[#a4a4a4] cursor-pointer hover:text-white"
         to={link}
         spy={true}
         smooth={true}
