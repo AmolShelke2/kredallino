@@ -51,13 +51,22 @@ export const About = () => {
           Thinking of working with us? <br /> You'll be in a good company
         </p>
         <div className="mt-[90px] flex flex-col gap-4 w-[500px] mx-auto">
-          <button className="flex bg-white hover:bg-[#ef8292] transition-transform duration-[0.2s] hover:scale-150 text-black rounded-[20px] py-4 px-6 text-[32px] text-start tracking-wider font-text items-center gap-4 cursor-pointer">
+          <button
+            className="flex bg-white hover:bg-[#ef8292] transition-transform duration-[0.2s] hover:scale-150 text-black 
+          rounded-[20px] py-4 px-6 text-[32px] text-start tracking-wider font-text items-center gap-4 cursor-pointer font-semibold">
             <AiOutlineArrowRight />
             Our Past Work
           </button>
-          <button className="flex bg-white hover:bg-[#ef8292] text-black rounded-[20px] transition-transform duration-[0.2s] hover:scale-150 py-4 px-6 text-[32px] text-start tracking-wider font-text items-center gap-4 cursor-pointer">
+          <button
+            className="flex bg-white hover:bg-[#ef8292] text-black rounded-[20px] transition-transform duration-[0.2s]
+           hover:scale-150 py-4 px-6 text-[32px] text-start tracking-wider font-text items-center gap-4 cursor-pointer font-semibold">
             <AiOutlineArrowRight />
-            Book A Free Session
+            <a
+              href="https://calendly.com/kalilinuxuser5/30min?month=2023-11"
+              target="_blank"
+              rel="noreferrer">
+              Book A Free Session
+            </a>
           </button>
         </div>
       </div>
