@@ -2,12 +2,13 @@ import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import kredConnect from "../../assets/KredConnect.png";
 import KredTradex from "../../assets/KredTradex.png";
+import LearningPower from "../../assets/LearningPower.png";
 
 export const About = () => {
   return (
     <div className="w-full h-[912px]" id="about">
       {/* Image container */}
-      <div className="max-w-[1300px] mx-auto h-[380px] flex gap-5 px-8">
+      <div className="max-w-[1300px] mx-auto h-[380px] flex gap-2">
         <img
           src={kredConnect}
           className="mt-[24px]"
@@ -23,6 +24,13 @@ export const About = () => {
           width={200}
         />
         <img
+          src={LearningPower}
+          className="mt-[24px]"
+          alt="kredConnect"
+          height={348}
+          width={200}
+        />
+        <img
           src={kredConnect}
           className="mb-[24px]"
           alt="kredConnect"
@@ -31,8 +39,8 @@ export const About = () => {
         />
         <img
           src={kredConnect}
-          className="mt-[24px]"
           alt="kredConnect"
+          className="mt-[25px]"
           height={348}
           width={200}
         />
@@ -50,7 +58,7 @@ export const About = () => {
         <p className="font-text text-[57px] leading-[58px] text-center font-bold">
           Thinking of working with us? <br /> You'll be in a good company
         </p>
-        <div className="mt-[90px] flex flex-col gap-4 w-[500px] mx-auto">
+        <div className="mt-[90px] flex flex-col gap-8 w-[500px] mx-auto">
           <button
             className="flex bg-white hover:bg-[#ef8292] transition-transform duration-[0.2s] hover:scale-150 text-black 
           rounded-[20px] py-4 px-6 text-[32px] text-start tracking-wider font-text items-center gap-4 cursor-pointer font-semibold">
