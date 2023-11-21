@@ -8,7 +8,7 @@ export const About = () => {
   return (
     <div className="w-full h-[912px]" id="about">
       {/* Image container */}
-      <div className="max-w-[1300px] mx-auto h-[380px] flex gap-2">
+      <div className="max-w-[400px] sm:max-w-[600px] overflow-x-scroll lg:overflow-hidden lg:max-w-[1300px] mx-auto h-[380px] flex gap-2">
         <img
           src={kredConnect}
           className="mt-[24px]"
@@ -55,15 +55,15 @@ export const About = () => {
 
       {/* content container */}
       <div className="mt-[64px] text-center">
-        <p className="font-text text-[57px] leading-[58px] text-center font-bold">
+        <p className="font-text text-[32px] leading-[40px] lg:text-[57px] lg:leading-[58px] text-center font-bold">
           Thinking of working with us? <br /> You'll be in a good company
         </p>
-        <div className="mt-[90px] flex flex-col gap-8 w-[500px] mx-auto">
+        <div className="mt-[90px] flex flex-col justify-center items-center gap-8 xl:w-[500px] xl:mx-auto">
           <button
             className="flex bg-white hover:bg-[#ef8292] transition-transform duration-[0.2s] hover:scale-150 text-black 
           rounded-[20px] py-4 px-6 text-[32px] text-start tracking-wider font-text items-center gap-4 cursor-pointer font-semibold">
             <AiOutlineArrowRight />
-            Our Past Work
+            Check Our Past Work
           </button>
           <button
             className="flex bg-white hover:bg-[#ef8292] text-black rounded-[20px] transition-transform duration-[0.2s]
