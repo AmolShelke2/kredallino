@@ -3,6 +3,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import kredConnect from "../../assets/KredConnect.png";
 import KredTradex from "../../assets/KredTradex.png";
 import LearningPower from "../../assets/LearningPower.png";
+import CAS from "../../assets/CAS.png";
 
 export const About = () => {
   return (
@@ -31,7 +32,7 @@ export const About = () => {
           width={200}
         />
         <img
-          src={kredConnect}
+          src={CAS}
           className="mb-[24px]"
           alt="kredConnect"
           height={348}
