@@ -10,8 +10,8 @@ export const About = () => {
     <div className="w-full h-[912px]" id="about">
       {/* Image container */}
       <div
-        className="max-w-[400px] sm:max-w-[600px] overflow-x-scroll 
-      lg:overflow-hidden lg:max-w-[1300px] 2xl:mx-auto h-[380px] flex justify-center items-center gap-2 about">
+        className="w-full overflow-x-scroll overflow-y-hidden
+      lg:overflow-hidden lg:max-w-[1300px] 2xl:mx-auto h-[380px] flex sm:justify-center sm:items-center gap-2 about">
         <img
           src={kredConnect}
           className="mt-[24px]"
