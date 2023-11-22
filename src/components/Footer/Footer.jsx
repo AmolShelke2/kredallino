@@ -2,7 +2,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <div className="w-full h-auto mt-28">
+    <div className="w-full h-auto mt-28 bg-[#020d2f]">
       <div className="w-full p-8 flex gap-8 flex-col sm:flex-row">
         {/* Contact */}
         <div>
@@ -28,16 +28,33 @@ export const Footer = () => {
           </h3>
           <ul className="flex flex-col gap-4">
             <li className="cursor-pointer font-text font-semibold text-lg">
-              Instagram
+              <a
+                href="https://www.instagram.com/kredallino_technologies/"
+                target="_blank"
+                rel="noreferrer">
+                Instagram
+              </a>
             </li>
             <li className="cursor-pointer font-text font-semibold text-lg">
-              Facebook
+              <a
+                href="https://www.facebook.com/kredallino/"
+                target="_blank"
+                rel="noreferrer">
+                Facebook
+              </a>
             </li>
             <li className="cursor-pointer font-text font-semibold text-lg">
-              LinkedIn
+              <a
+                href="https://www.linkedin.com/company/kredallino/"
+                target="_blank"
+                rel="noreferrer">
+                LinkedIn
+              </a>
             </li>
             <li className="cursor-pointer font-text font-semibold text-lg">
-              Twitter
+              <a href="#" target="_blank" rel="noreferrer">
+                Facebook
+              </a>
             </li>
           </ul>
         </div>
