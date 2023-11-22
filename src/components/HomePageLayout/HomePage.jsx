@@ -3,6 +3,7 @@ import { Header } from "../Header/Header";
 import { HomeSection } from "../HomeSection/HomeSection";
 import { About } from "../About/About";
 import { Service } from "../ourService/Service";
+import { Blogs } from "../Blogs/Blogs";
 
 export const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ export const HomePage = () => {
       <HomeSection />
       <About />
       <Service />
+      <Blogs />
     </div>
   );
 };
