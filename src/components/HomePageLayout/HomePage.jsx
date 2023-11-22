@@ -4,6 +4,7 @@ import { HomeSection } from "../HomeSection/HomeSection";
 import { About } from "../About/About";
 import { Service } from "../ourService/Service";
 import { Blogs } from "../Blogs/Blogs";
+import { Team } from "../Team/Team";
 
 export const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ export const HomePage = () => {
       <About />
       <Service />
       <Blogs />
+      <Team />
     </div>
   );
 };
