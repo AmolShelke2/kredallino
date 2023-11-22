@@ -50,13 +50,13 @@ export const About = () => {
         <div className="mt-[90px] flex flex-col justify-center items-center gap-8 xl:w-[500px] xl:mx-auto">
           <button
             className="flex bg-white hover:bg-[#ef8292] transition-transform duration-[0.2s] hover:scale-150 text-black 
-          rounded-[20px] py-4 px-6 text-[32px] text-start tracking-wider font-text items-center gap-4 cursor-pointer font-semibold">
+          rounded-[20px] py-4 px-6 text-[18px] lg:text-[32px] text-start tracking-wider font-text items-center gap-4 cursor-pointer font-semibold">
             <AiOutlineArrowRight />
             Check Our Past Work
           </button>
           <button
             className="flex bg-white hover:bg-[#ef8292] text-black rounded-[20px] transition-transform duration-[0.2s]
-           hover:scale-150 py-4 px-6 text-[32px] text-start tracking-wider font-text items-center gap-4 cursor-pointer font-semibold">
+           hover:scale-150 py-4 px-6 text-[18px] lg:text-[32px] text-start tracking-wider font-text items-center gap-4 cursor-pointer font-semibold">
             <AiOutlineArrowRight />
             <a
               href="https://calendly.com/kalilinuxuser5/30min?month=2023-11"
