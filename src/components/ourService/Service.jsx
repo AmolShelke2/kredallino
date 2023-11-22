@@ -7,7 +7,7 @@ import mobileDev from "../../assets/services/mobile.svg";
 
 export const Service = () => {
   return (
-    <div className="w-full h-screen" id="services">
+    <div className="w-full h-full lg:h-screen" id="services">
       <div className="p-4 lg:p-24">
         <div className="mt-32 pb-10 lg:max-w-[1100px] lg:mx-auto">
           <h3 className="text-center lowercase text-[40px] leading-[50px] lg:text-[96px] lg:leading-[110px] font-thin">

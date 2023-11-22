@@ -10,3 +10,32 @@ body {
   background-color: #020d1f;
   color: white;
 }
+
+body::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: hsla(
+    0,
+    0%,
+    100%,
+    0.08
+  ); /* Set the color of the scrollbar thumb */
+  border-radius: 6px; /* Add rounded corners to the scrollbar thumb */
+}
+
+.about::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+  height: 8px;
+}
+
+.about::-webkit-scrollbar-thumb {
+  background-color: hsla(
+    0,
+    0%,
+    100%,
+    0.08
+  ); /* Set the color of the scrollbar thumb */
+  border-radius: 6px; /* Add rounded corners to the scrollbar thumb */
+}
