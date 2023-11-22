@@ -11,7 +11,9 @@ export const Blogs = () => {
           the <span className="font-text font-bold">#KredBlogs</span>
         </h3>
       </div>
-      <div className="w-full h-full 2xl:max-h-[700px] px-4 2xl:px-10 flex flex-wrap flex-col lg:flex-row overflow-x-hidden">
+      <div
+        className="w-full h-full 2xl:max-h-[700px] px-4 2xl:px-10 flex justify-center items-center flex-wrap 
+      sm:justify-start sm:items-start flex-col lg:flex-row overflow-x-hidden">
         <BlogCard />
         <BlogCard />
         <BlogCard />
