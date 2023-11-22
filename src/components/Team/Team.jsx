@@ -4,7 +4,7 @@ import teamMember2 from "../../assets/team/Sachin-kred.webp";
 
 export const Team = () => {
   return (
-    <div className="w-full h-full 2xl:h-screen mt-16">
+    <div className="w-full h-full mt-16 mb-10">
       <h4 className="text-center text-[40px] leading-[50px] lg:text-[90px] font-thin lg:leading-[100px] mb-10 tracking-[0.2px]">
         Our Team
       </h4>
