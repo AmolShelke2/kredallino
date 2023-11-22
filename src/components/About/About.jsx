@@ -11,7 +11,7 @@ export const About = () => {
       {/* Image container */}
       <div
         className="max-w-[400px] sm:max-w-[600px] overflow-x-scroll 
-      lg:overflow-hidden lg:max-w-[1300px] mx-auto h-[380px] flex gap-2 about">
+      lg:overflow-hidden lg:max-w-[1300px] 2xl:mx-auto h-[380px] flex justify-center items-center gap-2 about">
         <img
           src={kredConnect}
           className="mt-[24px]"
@@ -37,20 +37,6 @@ export const About = () => {
           src={CAS}
           className="mb-[24px]"
           alt="kredConnect"
-          height={348}
-          width={200}
-        />
-        <img
-          src={kredConnect}
-          alt="kredConnect"
-          className="mt-[25px]"
-          height={348}
-          width={200}
-        />
-        <img
-          src={kredConnect}
-          alt="kredConnect"
-          className="mb-[25px]"
           height={348}
           width={200}
         />
