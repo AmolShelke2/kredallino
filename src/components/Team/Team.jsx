@@ -65,7 +65,7 @@ export const Team = () => {
           </div>
         </div>
 
-        <div className="w-auto h-full 2xl:w-[55%] grid grid-cols-1 place-items-center md:grid-cols-2 md:place-items-start place-items-start xl:grid-cols-3 gap-4">
+        <div className="w-auto h-full 2xl:w-[55%] grid grid-cols-1 place-items-center md:grid-cols-2 md:place-items-start xl:grid-cols-3 gap-4">
           <div className="cursor-pointer">
             <div className="opacity-30 hover:opacity-100 transition-all duration-1000">
               <img src={teamMember1} alt="team-member" />
