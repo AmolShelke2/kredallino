@@ -12,8 +12,12 @@ export const Team = () => {
         className="flex flex-col overflow-hidden justify-start gap-8 mb-8 lg:mb-0 lg:gap-0 lg:flex-row lg:justify-between
           w-full h-full xl:max-h-[810px]">
         {/* Image container */}
-        <div className="w-full p-3 lg:p-0 lg:w-2/4">
-          <img src={teamMember1} alt="team-member" className="h-full w-full" />
+        <div className="w-full p-3 lg:p-0 lg:w-2/4 lg:flex lg:justify-center lg:items-center">
+          <img
+            src={teamMember1}
+            alt="team-member"
+            className="h-full w-full sm:w-[70%] sm:h-[70%] rounded-lg"
+          />
         </div>
         {/* Text Container */}
         <div className="w-full lg:w-2/4 flex flex-col justify-center items-center text-center">
@@ -34,8 +38,12 @@ export const Team = () => {
         className="flex flex-col overflow-hidden justify-start gap-8 mb-8 lg:mb-0 lg:gap-0 
         lg:flex-row-reverse lg:justify-between w-full h-full xl:max-h-[810px]">
         {/* Image container */}
-        <div className="w-full p-3 lg:p-0 lg:w-2/4">
-          <img src={teamMember2} alt="team-member" className="h-full w-full" />
+        <div className="w-full p-3 lg:p-0 lg:w-2/4 lg:flex lg:justify-center lg:items-center">
+          <img
+            src={teamMember2}
+            alt="team-member"
+            className="h-full w-full sm:w-[70%] sm:h-[70%] rounded-lg"
+          />
         </div>
         {/* Text Container */}
         <div className="w-full lg:w-2/4 flex flex-col justify-center items-center text-center">
