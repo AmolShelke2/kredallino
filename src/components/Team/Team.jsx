@@ -4,59 +4,93 @@ import teamMember2 from "../../assets/team/Sachin-kred.webp";
 
 export const Team = () => {
   return (
-    <div className="w-full h-full mt-16 mb-10">
-      <h4 className="text-center text-[40px] leading-[50px] lg:text-[90px] font-thin lg:leading-[100px] mb-10 tracking-[0.2px]">
+    <div className="w-full h-[1000px] my-16">
+      <h4 className="text-center text-[40px] leading-[50px] lg:text-[90px] font-bold font-text lg:leading-[100px] mb-10 tracking-[0.2px]">
         Our Team
       </h4>
-      <div
-        className="flex flex-col overflow-hidden justify-start gap-8 mb-8 lg:mb-0 lg:gap-0 lg:flex-row lg:justify-between
-          w-full h-full xl:max-h-[810px]">
-        {/* Image container */}
-        <div className="w-full p-3 lg:p-0 lg:w-2/4 lg:flex lg:justify-center lg:items-center">
-          <img
-            src={teamMember1}
-            alt="team-member"
-            className="h-full w-full sm:w-[70%] sm:h-[70%] rounded-lg"
-          />
-        </div>
-        {/* Text Container */}
-        <div className="w-full lg:w-2/4 flex flex-col justify-center items-center text-center">
-          <p
-            className="font-text font-light text-[35px] leading-[45px] lg:text-[64px]
-           lg:leading-[74px] w-[80%] mb-8">
-            Shubham is a highly motivated Person and
-          </p>
-          <h3
-            className="font-bold text-[18px] lg:text-[24px] leading-[28px] lg:leading-[34px]
-           tracking-[0.5px]">
-            Co-Founder & CTO <br /> @KredAllino Technologies
-          </h3>
-        </div>
-      </div>
+      <div className="mt-[100px] mx-[78px] max-h-[861px] h-full flex justify-between items-start">
+        <div className="max-w-[45%] my-[90px] h-[630px] w-[700px] flex flex-col gap-20">
+          <div>
+            <h3 className="font-text text-[36px] font-bold leading-[50px] capitalize mb-2.5">
+              Types of Application we have build
+            </h3>
+            <p className="text-[16px] leading-[26px] font-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+              commodi quos maxime ad placeat exercitationem corporis
+              consectetur! Deserunt, obcaecati assumenda! Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Iusto aperiam accusamus
+              temporibus in ab quam dolores odio est enim mollitia!
+            </p>
+          </div>
+          {/* application types  */}
+          <div className="w-[700px] flex flex-col gap-8">
+            <div className="flex justify-between items-center">
+              <p className="w-[231px] text-[24px] leading-[34px] font-semibold font-text capitalize text-[#ddd0c8]">
+                Digital marketing
+              </p>
+              <div className="ml-2 w-[315px] bg-[#ddd0c8] h-1"></div>
+              <p className="ml-2 w-[84px] text-[24px] leading-[34px] font-semibold font-text capitalize text-[#ddd0c8]">
+                60%
+              </p>
+            </div>
+            <div className="flex justify-between items-center">
+              <p className="w-[231px] text-[24px] leading-[34px] font-semibold font-text capitalize text-[#c4b471]">
+                Woo Commerce
+              </p>
+              <div className="ml-2 w-[315px] bg-[#c4b471] h-1"></div>
+              <p className="ml-2 w-[84px] text-[24px] leading-[34px] font-semibold font-text capitalize text-[#c4b471]">
+                95%
+              </p>
+            </div>
 
-      <div
-        className="flex flex-col overflow-hidden justify-start gap-8 mb-8 lg:mb-0 lg:gap-0 
-        lg:flex-row-reverse lg:justify-between w-full h-full xl:max-h-[810px]">
-        {/* Image container */}
-        <div className="w-full p-3 lg:p-0 lg:w-2/4 lg:flex lg:justify-center lg:items-center">
-          <img
-            src={teamMember2}
-            alt="team-member"
-            className="h-full w-full sm:w-[70%] sm:h-[70%] rounded-lg"
-          />
+            <div className="flex justify-between items-center">
+              <p className="w-[231px] text-[24px] leading-[34px] font-semibold font-text capitalize text-[#93fcfd]">
+                E-commerce
+              </p>
+              <div className="ml-2 w-[315px] bg-[#93fcfd] h-1"></div>
+              <p className="ml-2 w-[84px] text-[24px] leading-[34px] font-semibold font-text capitalize text-[#93fcfd]">
+                80%
+              </p>
+            </div>
+
+            <div className="flex justify-between items-center">
+              <p className="w-[231px] text-[20px] leading-[34px] font-semibold font-text capitalize text-[#ffa8d7]">
+                Enterprise websites
+              </p>
+              <div className="ml-2 w-[315px] bg-[#ffa8d7] h-1"></div>
+              <p className="ml-2 w-[84px] text-[24px] leading-[34px] font-semibold font-text capitalize text-[#ffa8d7]">
+                100%
+              </p>
+            </div>
+          </div>
         </div>
-        {/* Text Container */}
-        <div className="w-full lg:w-2/4 flex flex-col justify-center items-center text-center">
-          <p
-            className="font-text font-light text-[35px] leading-[45px] lg:text-[64px]
-           lg:leading-[74px] w-[80%] mb-8">
-            Sachin is a highly motivated Person and
-          </p>
-          <h3
-            className="font-bold text-[18px] lg:text-[24px] leading-[28px] lg:leading-[34px]
-           tracking-[0.5px]">
-            Co-Founder <br /> @KredAllino Technologies
-          </h3>
+        <div className="w-[55%] grid grid-cols-3 gap-4 place-items-center">
+          <div className="cursor-pointer">
+            <div className="opacity-30 hover:opacity-100 transition-all duration-1000">
+              <img src={teamMember1} alt="team-member" />
+            </div>
+            <p className="bg-black w-full py-4 px-2 text-center text-font">
+              Shubham - CTO
+            </p>
+          </div>
+
+          <div className="cursor-pointer">
+            <div className="opacity-30 hover:opacity-100 transition-all duration-1000">
+              <img src={teamMember2} alt="team-member" />
+            </div>
+            <p className="bg-black w-full py-4 px-2 text-center text-font">
+              Sachin - Co-founder
+            </p>
+          </div>
+
+          <div className="cursor-pointer">
+            <div className="opacity-30 hover:opacity-100 transition-all duration-1000">
+              <img src={teamMember1} alt="team-member" />
+            </div>
+            <p className="bg-black w-full py-4 px-2 text-center text-font">
+              Shubham - CTO
+            </p>
+          </div>
         </div>
       </div>
     </div>

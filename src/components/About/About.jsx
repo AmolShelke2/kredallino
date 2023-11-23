@@ -44,7 +44,7 @@ export const About = () => {
 
       {/* content container */}
       <div className="mt-[64px] text-center">
-        <p className="font-text text-[32px] leading-[40px] lg:text-[57px] lg:leading-[58px] text-center font-bold">
+        <p className="font-text text-[32px] capitalize leading-[40px] lg:text-[57px] lg:leading-[58px] text-center font-bold">
           Thinking of working with us? <br /> You'll be in a good company
         </p>
         <div className="mt-[90px] flex flex-col justify-center items-center gap-8 xl:w-[500px] xl:mx-auto">
