@@ -18,6 +18,20 @@ export default function Carousel() {
     slidesToScroll: 1,
     infinite: true,
     arrows: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   const hotelCards = [
