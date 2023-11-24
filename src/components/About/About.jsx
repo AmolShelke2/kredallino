@@ -4,7 +4,7 @@ import Carousel from "./Carousel";
 
 export const About = () => {
   return (
-    <div className="w-full h-[912px]" id="about">
+    <div className="w-full h-full" id="about">
       <Carousel />
       <div className="mt-[64px] text-center">
         <p className="font-text text-[32px] capitalize leading-[40px] lg:text-[57px] lg:leading-[58px] text-center font-bold">
