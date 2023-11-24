@@ -51,7 +51,7 @@ export default function Carousel() {
 
   return (
     <div className="w-full h-auto">
-      <div className="flex justify-between items-center px-10 2xl:px-40 h-[80px] mb-4">
+      <div className="flex justify-between items-center px-4 sm:px-10 2xl:px-40 h-[80px] mb-4">
         <div>
           <h3 className="text-2xl font-bold font-text lg:leading-[100px] tracking-[0.2px] capitalize">
             Our New products
@@ -77,7 +77,7 @@ export default function Carousel() {
         </div>
       </div>
 
-      <Slider ref={setSliderRef} {...sliderSettings} className="mx-10">
+      <Slider ref={setSliderRef} {...sliderSettings} className="mx-6 sm:mx-10">
         {hotelCards.map((card, index) => (
           <div className="flex flex-row justify-between gap-4">
             <div
