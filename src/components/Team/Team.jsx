@@ -8,13 +8,13 @@ export const Team = () => {
       <h4 className="text-center text-[40px] leading-[50px] lg:text-[90px] font-bold font-text lg:leading-[100px] mb-10 tracking-[0.2px]">
         Our Team
       </h4>
-      <div className="2xl:mt-[100px] mx-8 2xl:mx-[78px] 2xl:max-h-[861px] h-full flex flex-col 2xl:flex-row gap-y-20 2xl:gap-0 xl:justify-between items-start">
+      <div className="2xl:mt-[100px] mx-8 2xl:mx-[78px] 2xl:max-h-[861px] h-full flex flex-col justify-center items-center 2xl:flex-row gap-y-20 2xl:gap-0 xl:justify-between 2xl:items-start">
         <div className="w-full 2xl:max-w-[45%] my-6 2xl:my-[90px] h-full 2xl:h-[630px] 2xl:w-[700px] flex flex-col gap-20">
-          <div>
+          <div className="text-center 2xl:text-start">
             <h3 className="font-text text-[36px] font-bold leading-[50px] capitalize mb-2.5">
               Types of Application we have build
             </h3>
-            <p className="text-[16px] leading-[26px] font-text">
+            <p className="text-[16px] leading-[26px] font-text max-w-[80%] mx-auto 2xl:mx-0 2xl:max-w-[100%]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
               commodi quos maxime ad placeat exercitationem corporis
               consectetur! Deserunt, obcaecati assumenda! Lorem ipsum dolor sit
@@ -23,8 +23,8 @@ export const Team = () => {
             </p>
           </div>
           {/* application types  */}
-          <div className="w-full sm:w-[700px] flex flex-col gap-8">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 text-center">
+          <div className="w-full 2xl:w-[700px] flex items-center justify-center flex-col gap-8">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 text-center sm:text-left">
               <p className="w-[231px] text-[24px] leading-[34px] font-semibold font-text capitalize text-[#ddd0c8]">
                 Digital marketing
               </p>
@@ -33,7 +33,7 @@ export const Team = () => {
                 60%
               </p>
             </div>
-            <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 text-center">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 text-center sm:text-left">
               <p className="w-[231px] text-[24px] leading-[34px] font-semibold font-text capitalize text-[#c4b471]">
                 Woo Commerce
               </p>
@@ -43,7 +43,7 @@ export const Team = () => {
               </p>
             </div>
 
-            <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 text-center">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 text-center sm:text-left">
               <p className="w-[231px] text-[24px] leading-[34px] font-semibold font-text capitalize text-[#93fcfd]">
                 E-commerce
               </p>
@@ -53,7 +53,7 @@ export const Team = () => {
               </p>
             </div>
 
-            <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 text-center">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 text-center sm:text-left">
               <p className="w-[231px] text-[20px] leading-[34px] font-semibold font-text capitalize text-[#ffa8d7]">
                 Enterprise websites
               </p>

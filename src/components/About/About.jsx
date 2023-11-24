@@ -10,16 +10,49 @@ export const About = () => {
     <div className="w-full h-[912px]" id="about">
       {/* Image container */}
       <div
-        className="w-full overflow-x-scroll overflow-y-hidden
-      lg:overflow-hidden lg:max-w-[1300px] 2xl:mx-auto h-[380px] flex sm:justify-center sm:items-center gap-2 about">
-        <img
-          src={kredConnect}
-          className="mt-[24px]"
-          alt="kredConnect"
-          height={348}
-          width={200}
-        />
-        <img
+        className="w-full overflow-y-hidden
+      lg:overflow-hidden lg:max-w-[1300px] 2xl:mx-auto h-[380px] flex px-4 gap-4 about">
+        <div className="h-[550px] w-[450px] flex items-center rounded-sm py-4 justify-start flex-col bg-[#1C1C1C]">
+          <img
+            src={kredConnect}
+            className=""
+            alt="kredConnect"
+            height={348}
+            width={200}
+          />
+        </div>
+
+        <div className="h-[550px] w-[450px] flex items-center rounded-sm py-4 justify-start flex-col bg-[#1C1C1C]">
+          <img
+            src={KredTradex}
+            className=""
+            alt="kredConnect"
+            height={348}
+            width={200}
+          />
+        </div>
+
+        <div className="h-[550px] w-[450px] flex items-center rounded-sm py-4 justify-start flex-col bg-[#1C1C1C]">
+          <img
+            src={LearningPower}
+            className=""
+            alt="kredConnect"
+            height={348}
+            width={200}
+          />
+        </div>
+
+        <div className="h-[550px] w-[450px] flex items-center rounded-sm py-4 justify-start flex-col bg-[#1C1C1C]">
+          <img
+            src={CAS}
+            className=""
+            alt="kredConnect"
+            height={348}
+            width={200}
+          />
+        </div>
+
+        {/* <img
           src={KredTradex}
           className="mb-[24px]"
           alt="kredConnect"
@@ -39,7 +72,7 @@ export const About = () => {
           alt="kredConnect"
           height={348}
           width={200}
-        />
+        /> */}
       </div>
 
       {/* content container */}
