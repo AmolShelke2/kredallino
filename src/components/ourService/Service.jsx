@@ -9,7 +9,7 @@ import seo from "../../assets/services/seo.png";
 
 export const Service = () => {
   return (
-    <div className="w-full h-full 2xl:h-screen" id="services">
+    <div className="w-full h-full" id="services">
       <div className="p-4 lg:p-24">
         <div className="mt-32 pb-10 lg:max-w-[1100px] lg:mx-auto">
           <h3 className="text-center capitalize text-[40px] leading-[50px] lg:text-[96px] lg:leading-[110px] font-thin">
