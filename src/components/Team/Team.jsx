@@ -14,7 +14,7 @@ export const Team = () => {
             <h3 className="font-text text-[36px] font-bold leading-[50px] capitalize mb-2.5">
               Types of Application we have build
             </h3>
-            <p className="text-[16px] leading-[26px] font-text max-w-[80%] mx-auto 2xl:mx-0 2xl:max-w-[100%]">
+            <p className="text-[16px] leading-[26px] font-text sm:max-w-[80%] sm:mx-auto 2xl:mx-0 2xl:max-w-[100%]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
               commodi quos maxime ad placeat exercitationem corporis
               consectetur! Deserunt, obcaecati assumenda! Lorem ipsum dolor sit
