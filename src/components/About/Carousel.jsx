@@ -79,7 +79,7 @@ export default function Carousel() {
 
       <Slider ref={setSliderRef} {...sliderSettings} className="mx-6 sm:mx-10">
         {hotelCards.map((card, index) => (
-          <div className="flex flex-row justify-between gap-4">
+          <div className="flex flex-row justify-between gap-4" key={index}>
             <div
               className="h-[550px] w-[95%] flex items-center rounded-sm py-4 mx-2 justify-center flex-col bg-[#1C1C1C]"
               key={index}>
