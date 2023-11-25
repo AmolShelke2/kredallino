@@ -15,7 +15,7 @@ export const Footer = () => {
           <input
             type="email"
             placeholder="your email address"
-            className="py-5 rounded-lg bg-transparent border-2 border-gray-700 w-[550px] px-2"
+            className="py-5 rounded-lg bg-transparent border-2 border-gray-700 w-[550px] px-4 placeholder:capitalize"
           />
           <button className="py-3 px-4 bg-[#db3847] rounded-lg">
             sign up now
@@ -53,7 +53,7 @@ export const Footer = () => {
         <div className="flex justify-between px-10 py-8 border-t-2 border-t-gray-700">
           <div>
             <p className="text-lg capitalize font-text font-thin leading-4 tracking-[0.4px]">
-              all rights reserved kredAllino 2023
+              all rights reserved @kredAllino 2023
             </p>
           </div>
           <div className="flex items-center">
