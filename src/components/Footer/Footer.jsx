@@ -6,16 +6,16 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaPhone } from "react-icons/fa6";
 export const Footer = () => {
   return (
     <div className="w-full h-full mt-28 bg-[#020d2f] pt-4">
-      <div className="flex flex-col justify-center items-center py-10 h-[158px] my-10">
-        <h5 className="text-[40px] leading-[52px] font-text text-[#db3847] mb-8 font-bold mt-10">
+      <div className="flex flex-col justify-center items-center py-10 h-[158px] my-20 lg:my-10">
+        <h5 className="text-[40px] leading-[52px] font-text text-center text-[#db3847] mb-8 font-bold mt-10">
           Sign up our news letter
         </h5>
 
-        <div className="flex">
+        <div className="flex flex-col w-full px-6 lg:px-0 gap-4 lg:gap-0 lg:w-auto lg:flex-row">
           <input
             type="email"
             placeholder="your email address"
-            className="py-5 rounded-lg bg-transparent border-2 border-gray-700 w-[550px] px-4 placeholder:capitalize"
+            className="py-5 rounded-lg bg-transparent border-2 border-gray-700 lg:w-[550px] px-4 placeholder:capitalize"
           />
           <button className="py-3 px-4 bg-[#db3847] rounded-lg">
             sign up now
@@ -23,13 +23,15 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div>
+      <div className="">
         {/* logo div */}
         <div className="flex items-center justify-center py-10">
           <img src={kredAllino} alt="kredallino" height={200} width={200} />
         </div>
         {/* address, email and phone div */}
-        <div className="flex justify-between items-center max-w-[1450px] mx-auto mb-20 py-10 px-4 2xl:px-0">
+        <div
+          className="flex flex-col gap-8 lg:gap-0 lg:flex-row justify-center lg:justify-between 
+        items-center lg:max-w-[1450px] lg:mx-auto mb-20 py-10 px-4 2xl:px-0">
           <div className="flex items-center">
             <MdOutlineEmail className="text-4xl mr-4 opacity-50" />
             <p className="text-lg font-medium font-text cursor-pointer">
@@ -50,9 +52,9 @@ export const Footer = () => {
           </div>
         </div>
         {/* bottom container */}
-        <div className="flex justify-between px-10 py-8 border-t-2 border-t-gray-700">
+        <div className="flex flex-col lg:flex-row lg:justify-between justify-center items-center lg:items-start px-10 py-8 gap-2 border-t-2 border-t-gray-700">
           <div>
-            <p className="text-lg capitalize font-text font-thin leading-4 tracking-[0.4px]">
+            <p className="text-lg capitalize font-text text-center lg:text-start font-thin leading-12 lg:leading-4 tracking-[0.4px]">
               all rights reserved @kredAllino 2023
             </p>
           </div>
