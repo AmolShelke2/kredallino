@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <div className="w-full h-full mt-28 bg-[#020d2f] pt-4">
       <div className="flex flex-col justify-center items-center py-10 h-[158px] my-20 lg:my-10">
-        <h5 className="text-[40px] leading-[52px] font-text text-center text-[#db3847] mb-8 font-bold mt-10">
+        <h5 className="text-[40px] leading-[52px] font-text text-center text-[#db3847] mb-8 font-bold mt-10 capitalize">
           Sign up our news letter
         </h5>
 
@@ -53,10 +53,54 @@ export const Footer = () => {
         </div>
         {/* bottom container */}
         <div className="flex flex-col lg:flex-row lg:justify-between justify-center items-center lg:items-start px-10 py-8 gap-2 border-t-2 border-t-gray-700">
-          <div>
+          <div className="flex flex-col lg:flex-row gap-4 2xl:gap-10 items-center mb-10 lg:mb-0">
             <p className="text-lg capitalize font-text text-center lg:text-start font-thin leading-12 lg:leading-4 tracking-[0.4px]">
               all rights reserved @kredAllino 2023
             </p>
+            <div>
+              <ul className="flex flex-row flex-wrap gap-4 items-center justify-center lg:items-start lg:justify-start lg:flex-nowrap">
+                <li className="cursor-pointer font-text text-sm font-thin capitalize hover:underline transition-all duration-500">
+                  <a
+                    href="https://shop.kredallino.com/policies/refund-policy"
+                    target="_blank"
+                    rel="noreferrer">
+                    Refund policy
+                  </a>
+                </li>
+                <li className="cursor-pointer font-text text-sm font-thin capitalize hover:underline transition-all duration-500">
+                  <a
+                    href="https://shop.kredallino.com/policies/privacy-policy"
+                    target="_blank"
+                    rel="noreferrer">
+                    privacy policy
+                  </a>
+                </li>
+                <li className="cursor-pointer font-text text-sm font-thin capitalize hover:underline transition-all duration-500">
+                  <a
+                    href="https://shop.kredallino.com/policies/terms-of-service"
+                    target="_blank"
+                    rel="noreferrer">
+                    Terms of service
+                  </a>
+                </li>
+                <li className="cursor-pointer font-text text-sm font-thin capitalize hover:underline transition-all duration-500">
+                  <a
+                    href="https://shop.kredallino.com/policies/shipping-policy"
+                    target="_blank"
+                    rel="noreferrer">
+                    shipping policy
+                  </a>
+                </li>
+                <li className="cursor-pointer font-text text-sm font-thin capitalize hover:underline transition-all duration-500">
+                  <a
+                    href="https://shop.kredallino.com/policies/contact-information"
+                    target="_blank"
+                    rel="noreferrer">
+                    contact information
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="flex items-center">
             <p className="text-xl font-text font-light leading-4 mr-4">
